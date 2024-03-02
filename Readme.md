@@ -16,3 +16,4 @@ Run `node index.js` to fetch weather data for the specified latitude and longitu
 
 Build the Docker image with `docker build -t name/weather-api-wrapper .` and run it using `docker run --env lat="your_latitude" --env lon="your_longitude" --env API_Key="your_api_key" name/weather-api-wrapper`.
 
+Or you can find the Docker image on DockerHub : [Link](https://hub.docker.com/repository/docker/louisdesc/tp1-devops-weather-api/general)
